@@ -65,6 +65,7 @@ Then open <http://localhost:5173>.
 
 ## Credits
 
+- Built by following [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)'s MacBook landing page tutorial by [Adrian Hajdin](https://github.com/adrianhajdin).
 - 3D model: [MacBook Pro M3 16 inch 2024](https://sketchfab.com/3d-models/macbook-pro-m3-16-inch-2024-8e34fc2b303144f78490007d91ff57c4) by [jackbaeten](https://sketchfab.com/jackbaeten), licensed [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
 - Design, copy, and media are from [Apple's MacBook Pro page](https://www.apple.com/macbook-pro/).
 
