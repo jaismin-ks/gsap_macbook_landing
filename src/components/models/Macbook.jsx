@@ -17,7 +17,7 @@ import { noChangeParts } from '../../constants'
 
 export default function MacBookModel(props) {
   const {color, texture} = useMacBookStore();
-  const { nodes, materials, scene } = useGLTF('/models/macbook-transformed.glb')
+  const { nodes, materials, scene } = useGLTF('./models/macbook-transformed.glb')
   
   const screen = useVideoTexture(texture);
   

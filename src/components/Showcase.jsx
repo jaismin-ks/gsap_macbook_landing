@@ -53,7 +53,7 @@ const Showcase = () => {
     <section id="showcase" ref={showcaseRef}>
       <div className="media">
         <video
-          src="/videos/game.mp4"
+          src="./videos/game.mp4"
           loop
           muted
           autoPlay
@@ -62,7 +62,7 @@ const Showcase = () => {
         />
 
         <div className="mask">
-          <img ref={maskImgRef} src="/mask-logo.svg" alt="mask" />
+          <img ref={maskImgRef} src="./mask-logo.svg" alt="mask" />
         </div>
       </div>
 

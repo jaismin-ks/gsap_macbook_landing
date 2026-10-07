@@ -15,11 +15,11 @@ import {noChangeParts} from "../../constants/index.js";
 import {Color, SRGBColorSpace} from 'three'
 
 export default function MacbookModel14(props) {
-  const { nodes, materials, scene } = useGLTF('/models/macbook-14-transformed.glb');
+  const { nodes, materials, scene } = useGLTF('./models/macbook-14-transformed.glb');
 
   const { color } = useMacbookStore();
 
-  const texture = useTexture('/screen.png');
+  const texture = useTexture('./screen.png');
     texture.colorSpace = SRGBColorSpace;
     texture.needsUpdate = true;
 

@@ -83,7 +83,7 @@ const Performance = () => {
           <img
             key={index}
             ref={(el) => (imagesRef.current[index] = el)}
-            src={item.src}
+            src={`${import.meta.env.BASE_URL}${item.src}`}
             className={item.id}
             alt={item.alt || `Performance Image ${index + 1}`}
           />
