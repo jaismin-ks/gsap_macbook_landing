@@ -5,5 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/gsap_macbook_landing/'
+  // GitHub Pages serves from /gsap_macbook_landing/; Vercel and local serve from /
+  base: process.env.GH_PAGES ? '/gsap_macbook_landing/' : '/'
 })
